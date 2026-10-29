@@ -1,0 +1,28 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep the example environment file
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
